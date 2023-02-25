@@ -30,13 +30,22 @@ cookies = {
 }
 url = "https://api.qimai.cn/rank/index"
 cell = execjs.compile(open('quimai.js', encoding='utf-8').read())
-analysis = cell.call('_xl',['paid', 'iphone', 'cn', '36'],'/rank/index')
+
+
 params = {
-    "analysis": analysis,
-    "brand": "paid",
+    "brand": "free",
     "device": "iphone",
     "country": "cn",
-    "genre": "36"
+    "genre": "36",
+    "date": "2023-02-25",
+    "page": "3",
+    "is_rank_index": "1"
 }
+keu = list(params.values())
+print(keu)
+analysis = cell.call('_xl', keu, '/rank/index')
+params['analysis'] = analysis
 response = requests.get(url, headers=headers, cookies=cookies, params=params)
-pprint(response.json())
+# pprint(response.json())
+pprint(response.json().get('rankInfo'))
+# 50 lines of data per page
