@@ -17,4 +17,4 @@ Here in are part of my data extraction procedures:
 ![copy the  o function in n](https://user-images.githubusercontent.com/70765681/221351027-7d576bb0-4c9b-4856-bfde-dd7a86fce47a.png)
 ![we start to look into the for each cycle function](https://user-images.githubusercontent.com/70765681/221351028-069a830d-aec9-4592-8de8-6f0ae8efd2e4.png)
 ![decode the formula js code](https://user-images.githubusercontent.com/70765681/221351204-7fcc9ab3-a951-4e86-af0b-2e44eae829d9.png)
-![js code for d](https://user-images.githubusercontent.com/70765681/221351276-ec659e9d-818b-4b1e-ac89-77d9cdb4737e.png)
+
